@@ -23,6 +23,11 @@ The following functions are implemented:
 hrbrpkghelpr::describe_ingredients()
 ```
 
+NOTE: This is a woefully incomplete wrapper (so far). You are def encouraged
+to contribute if you use Raindrop and the package will be a full wrapper. This
+skeleton was made to remind myself to make this package and have something to
+hack on during long-running Athena queries or tedious conference calls.
+
 ## Installation
 
 ```{r install-ex, results='asis', echo=FALSE, cache=FALSE}

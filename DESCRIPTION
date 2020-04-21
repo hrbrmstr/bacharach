@@ -1,6 +1,6 @@
 Package: bacharach
 Type: Package
-Title: bacharach title goes here otherwise CRAN checks fail
+Title: Tools to Work with the Raindrop API
 Version: 0.1.0
 Date: 2020-04-21
 Authors@R: c(
@@ -8,7 +8,9 @@ Authors@R: c(
            comment = c(ORCID = "0000-0001-5670-2640"))
   )
 Maintainer: Bob Rudis <bob@rud.is>
-Description: A good description goes here otherwise CRAN checks fail.
+Description: Raindrop <https://raindrop.io> provides a URL bookmarking service
+    and an API for working with that service and more. Tools are provided to
+    work with the Raindrop API. A Raindrop API key (free) is required.
 URL: https://git.rud.is/hrbrmstr/bacharach
 BugReports: https://gitlab.com/hrbrmstr/bacharach/issues
 Encoding: UTF-8

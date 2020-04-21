@@ -4,9 +4,11 @@
 \name{bacharach}
 \alias{bacharach}
 \alias{bacharach-package}
-\title{...}
+\title{Tools to Work with the Raindrop API}
 \description{
-A good description goes here otherwise CRAN checks fail.
+Raindrop \url{https://raindrop.io} provides a URL bookmarking service
+and an API for working with that service and more. Tools are provided to
+work with the Raindrop API.nA Raindrop API key (free) is required.
 }
 \seealso{
 Useful links:
