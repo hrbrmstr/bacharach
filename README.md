@@ -10,7 +10,7 @@ by](https://img.shields.io/badge/Keybase-Verified-brightgreen.svg)](https://keyb
 Status](https://travis-ci.org/hrbrmstr/bacharach.svg?branch=master)](https://travis-ci.org/hrbrmstr/bacharach)  
 ![Minimal R
 Version](https://img.shields.io/badge/R%3E%3D-3.2.0-blue.svg)
-![License](https://img.shields.io/badge/License-AGPL-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 # bacharach
 

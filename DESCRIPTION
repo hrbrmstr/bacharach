@@ -14,7 +14,7 @@ Description: Raindrop <https://raindrop.io> provides a URL bookmarking service
 URL: https://git.rud.is/hrbrmstr/bacharach
 BugReports: https://gitlab.com/hrbrmstr/bacharach/issues
 Encoding: UTF-8
-License: AGPL
+License: MIT + file LICENSE
 Suggests: 
     covr, tinytest
 Depends: 
