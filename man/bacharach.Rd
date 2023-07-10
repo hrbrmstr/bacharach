@@ -13,8 +13,8 @@ work with the Raindrop API.nA Raindrop API key (free) is required.
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://git.rud.is/hrbrmstr/bacharach}
-  \item Report bugs at \url{https://gitlab.com/hrbrmstr/bacharach/issues}
+  \item \url{https://github.com/hrbrmstr/bacharach}
+  \item Report bugs at \url{https://github.com/hrbrmstr/bacharach/issues}
 }
 
 }

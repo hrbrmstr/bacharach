@@ -3,6 +3,7 @@
 export(get_child_collections)
 export(get_collection)
 export(get_raindrop)
+export(get_raindrop_permacopy)
 export(get_raindrops)
 export(get_root_collections)
 export(get_user)

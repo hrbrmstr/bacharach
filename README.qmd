@@ -1,7 +1,5 @@
 ---
-output: rmarkdown::github_document
-editor_options: 
-  chunk_output_type: console
+output: gfm
 ---
 ```{r pkg-knitr-opts, include=FALSE}
 hrbrpkghelpr::global_opts()

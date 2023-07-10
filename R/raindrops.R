@@ -1,4 +1,30 @@
+# nolint start
+
 # https://api.raindrop.io/rest/v1/raindrop/{id}
+
+#' Get a single raindrop permacopy from the cache (Pro feature)
+#'
+#' @param id raindrop id
+#' @export
+get_raindrop_permacopy  <- function(id, api_key = raindrop_api_token()) {
+
+	sprintf(
+    "https://api.raindrop.io/rest/v1/raindrop/%s/cache",
+    id[1]
+  ) -> get_raindrop_permacopy_url
+
+  httr::GET(
+    url = get_raindrop_permacopy_url,
+    .RAINDROP_UA,
+    raindrop_auth()
+  ) -> res 
+
+  httr::stop_for_status(res)
+
+  out <- httr::content(res, as = "text")
+
+  out
+}
 
 #' Get a single raindrop
 #'
@@ -78,5 +104,4 @@ get_raindrops <- function(id, api_key = raindrop_api_token()) {
 
 }
 
-
-
+# nolint end
